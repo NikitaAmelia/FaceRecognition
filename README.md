@@ -1,62 +1,64 @@
-# 🐾 Animal Spirit Face Recognition
+🐾 Animal Spirit Face Recognition
 
-Animal Spirit Face Recognition adalah aplikasi **face detection berbasis Python dan OpenCV** yang menggunakan webcam untuk mendeteksi wajah secara real-time dan menampilkan **label “Animal Spirit” secara acak** di atas wajah pengguna.
+Animal Spirit Face Recognition is a Python and OpenCV-based face detection application that uses a webcam to detect faces in real-time and display a randomly generated “Animal Spirit” label above the user's face.
 
-Animal Spirit akan **berubah otomatis setiap 3 detik**, memberikan pengalaman interaktif yang ringan, lucu, dan menarik.
+The Animal Spirit label automatically changes every 3 seconds, creating a fun, lightweight, and interactive experience.
 
----
+📌 Project Description
 
-## 📌 Deskripsi Proyek
+This project utilizes OpenCV's Haar Cascade Classifier to detect human faces through a webcam feed.
 
-Proyek ini memanfaatkan **Haar Cascade Classifier** dari OpenCV untuk mendeteksi wajah manusia melalui kamera.  
-Setiap wajah yang terdeteksi akan diberi anotasi berupa **Animal Spirit** yang dipilih secara acak dari daftar yang telah ditentukan.
+Each detected face is annotated with a randomly selected Animal Spirit label from a predefined list.
 
-Aplikasi ini cocok untuk:
-- Pembelajaran Computer Vision dasar
-- Eksperimen Face Detection
-- Proyek hiburan berbasis AI
-- Prototype aplikasi interaktif
+This application is suitable for:
 
----
+Learning basic Computer Vision concepts
 
-## ✨ Fitur Utama
+Experimenting with Face Detection
 
-- ✅ Deteksi wajah secara real-time menggunakan webcam
-- ✅ Menggunakan Haar Cascade Classifier
-- ✅ Menampilkan label Animal Spirit di atas wajah
-- ✅ Animal Spirit berubah setiap 3 detik
-- ✅ Tampilan bounding box pada wajah
-- ✅ Keluar aplikasi dengan tombol **Q**
+AI-based entertainment projects
 
----
+Interactive application prototypes
 
-## 🧠 Contoh Animal Spirit
+✨ Key Features
 
-Beberapa label Animal Spirit yang tersedia:
-- Kucing Sok Cool Padahal Laper
-- Panda Rebahan Profesional
-- Kodok Overthinking Jam 3 Pagi
-- Capybara Paling Santai Sedunia
-- Sloth Deadline Melekat
-- Ayam Panik Padahal Aman
-- Ikan Cupang Gampang Tersinggung
+✅ Real-time face detection using webcam
 
----
+✅ Haar Cascade Classifier implementation
 
-## 🛠️ Teknologi yang Digunakan
+✅ Displays Animal Spirit label above detected faces
 
-| Teknologi | Keterangan |
-|---------|------------|
-| Python | Bahasa pemrograman utama |
-| OpenCV | Library Computer Vision |
-| Haar Cascade | Metode deteksi wajah |
-| Webcam | Media input video |
+✅ Animal Spirit changes every 3 seconds
 
----
+✅ Bounding box visualization on detected faces
 
-## 📦 Instalasi dan Persiapan
+✅ Exit application by pressing Q
 
-### 1️⃣ Clone Repository
-```bash
+🧠 Sample Animal Spirits
+
+Some of the available Animal Spirit labels:
+
+Cool Cat But Actually Hungry
+
+Professional Panda at Rest
+
+3AM Overthinking Frog
+
+The Most Relaxed Capybara
+
+Deadline-Clinging Sloth
+
+Panic Chicken (Even When It's Safe)
+
+Easily Offended Betta Fish
+
+🛠️ Technologies Used
+Technology	Description
+Python	Main programming language
+OpenCV	Computer Vision library
+Haar Cascade	Face detection method
+Webcam	Video input source
+📦 Installation & Setup
+1️⃣ Clone the Repository
 git clone https://github.com/NikitaAmelia/FaceRecognition.git
 cd FaceRecognition
