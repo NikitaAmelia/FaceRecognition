@@ -74,3 +74,16 @@ pip install opencv-python
 ### 5️⃣ Run the Application
 
 python app.py
+
+---
+
+## 👩‍💻 Author
+
+Nikita Amelia Valencia  
+Machine Learning & Data Science Enthusiast
+
+---
+
+## 📜 License
+
+This project is for educational and portfolio purposes.
